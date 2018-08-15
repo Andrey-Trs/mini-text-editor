@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson 12</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="box1">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+	</div>
+	<div id="buttons">
+		<input type="button" name='edit' value='Редагувати' class='buttons1' id='edit'>
+		<input type="button" name='style' value='Стилізувати' class='buttons1' id='style'>
+	</div>
+	<div id="box2">
+		<div id="box2_1">
+			<textarea name="" cols="30" rows="10" id='textArea'>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </textarea>
+			<input type="button" value='Зберегти' name='save' class='buttons2' id='save'>
+			<input type="button" value='Додати' name='add' class='buttons2' id='add'>
+		</div>
+		<div id="box3">
+			<form name='fontSize'>
+				<label for="">Розмір тексту</label>
+				<input type="radio" name='radio' class='radio' value='12px'> 12px
+				<input type="radio" name='radio' class='radio' value='14px'> 14px
+				<input type="radio" name='radio' class='radio' value='16px'> 16px
+				<input type="radio" name='radio' class='radio' value='18px'> 18px
+				<input type="radio" name='radio' class='radio' value='20px'> 20px
+			</form>
+			<form name='fontFamily'>
+				<label for="literature">Література</label>
+				<select name="literature" id="literature">
+                   <option value="Times New Roman">Times New Roman</option>
+                   <option value="Arial">Arial</option>
+                   <option value="Verdana">Verdana</option>
+                   <option value="Tahoma">Tahoma</option>
+               </select>
+			</form>
+			<form name='formColors'>
+				<input type="button" name='textColor' value='Колір тексту' id='textColor' class='buttons3'>
+				<input type="button" name='bgColor' value='Колір фону' id='bgColor' class='buttons3'>
+			</form>
+			<form name='textDecoration'>
+				<input type="checkbox" name='textWeight' id='textWeight' class='checkbox'> Жирний текст
+				<input type="checkbox" name='textItalic' id='textItalic' class='checkbox'> Курсивний текст
+			</form>
+			<div id="boxOfColors">
+				<div class="colorBox" id='color1'>rgb(0, 255, 0)</div>
+				<div class="colorBox" id='color2'>rgb(255, 0, 0)</div>
+				<div class="colorBox" id='color3'>rgb(255,255,0)</div>
+				<div class="colorBox" id='color4'>rgb(128,0,128)</div>
+				<div class="colorBox" id='color5'>rgb(0, 0, 255)</div>
+				<div class="colorBox" id='color6'>rgb(64,64,64)</div>
+				<div class="colorBox" id='color7'>rgb(255,192,203)</div>
+				<div class="colorBox" id='color8'>rgb(240,128,128)</div>
+				<div class="colorBox" id='color9'>rgb(85,107,47)</div>
+			</div>
+		</div>
+	</div>
+	<div id="box4">
+		<h1 class="chooseWhatToAdd">Виберіть, що саме ви хочете додати:</h1>
+		<form name='tableOrList' id='tableOrList'>
+			<input type="radio" name='tOrL' value='table'> Таблицю
+			<input type="radio" name='tOrL' id='chooseList' value='list'> Список
+		</form>
+		<form name='setYourTable' id='setYourTable'>
+			Введіть кількість рядків таблиці <input type="text" name='countsOfRows' id='countsOfRows' class='typeTextStyle'  value='5'><br> Введіть кількість стовпців таблиці <input type="text" name='countOfColumns' id='countOfColumns' class='typeTextStyle' value="5"><br>
+			<h3 class="styleOfTable">Стилізуйте таблицю:</h3>
+			Введіть ширину комірки таблиці <input type="text" name='widthOfData' id='widthOfData' class='typeTextStyle' value="10"><br> Введіть висоту комірки таблиці <input type="text" name='heightOfData' id='heightOfData' class='typeTextStyle' value="10"><br> Товщина:
+			<input type="text" name='lineThickness' id='lineThickness' class='typeTextStyle' value="6"> Тип лінії: <select class='select2' id='selectLine1' name='select2'>
+				<option value="solid" selected>solid</option>
+				<option value="dotted">dotted</option>
+				<option value="dashed">dashed</option>
+				<option value="double">double</option>
+			</select> Колір лінії: <select class='select2' id='selectLine2' name='select3'>
+				<option value="black">black</option>
+				<option value="red" selected>red</option>
+				<option value="blue">blue</option>
+			</select>
+			<input type="button" name='createTable' id='createTable' value='Створити таблицю'>
+		</form>
+		<form name='setYourList' id='setYourList'>
+				Введіть кількість елементів списку <input type="text" name='itemQuantity' class='typeTextStyle' id='itemQuantity' value='5'><br>
+			Тип маркування списку <select name="listStyleType" id="listStyleType" class='select2'>
+				<option value="circle">circle</option>
+				<option value="disc">disc</option>
+				<option value="square">square</option>
+			</select>
+			<input type="button" name='createList' id='createList' value='Створити список '>
+		</form>
+	</div>
+
+	<script src='js/main.js'></script>
+</body>
+
+</html>

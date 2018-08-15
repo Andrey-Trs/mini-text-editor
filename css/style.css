@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/Lenovo-wallpaper-6_DcyKDyp.jpg);
+	background-size: cover;
+	background-attachment: local;
+	font-size: 14px;
+}
+
+#box1 {
+	width: 500px;
+	height: 400px;
+	border: 3px solid white;
+	border-radius: 9px;
+	background-color: rgba(124, 252, 0, 0.5);
+	color: white;
+	padding-left: 20px;
+	margin: 20px auto 0px auto;
+	overflow: auto;
+}
+
+p {
+	margin: 10px;
+}
+
+#buttons {
+	width: 500px;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto 0px auto;
+}
+
+.buttons1 {
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	border: 2px solid aqua;
+	font-size: 20px;
+}
+
+#box2 {
+	width: 500px;
+	height: 400px;
+	border: 3px solid white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px auto 0px auto;
+	background-color: rgba(0, 191, 255, 0.5);
+}
+
+#box3 {
+	width: 450px;
+	height: 300px;
+	display: none;
+}
+
+#box2_1 {
+	width: 450px;
+	height: 300px;
+	margin: 0 auto;
+	display: none;
+}
+
+textarea {
+	width: 450px;
+	height: 250px;
+
+
+}
+
+.buttons2 {
+	border-radius: 5px;
+	margin: 10px;
+}
+
+form {
+	margin: 20px;
+	color: white;
+}
+
+.radio,
+.checkbox {
+	margin-left: 10px;
+}
+
+.buttons3 {
+	border-radius: 10px;
+	font-weight: 500;
+	margin-right: 15px;
+	width: 80px;
+	height: 25px;
+}
+
+select {
+	width: 150px;
+	height: 30px;
+	border-radius: 15px;
+	border: 2px solid aqua;
+	background-color: lightgreen;
+	font-weight: 700;
+}
+
+option {
+	display: block;
+	margin: 10px;
+}
+
+#boxOfColors {
+	width: 180px;
+	height: 180px;
+	display: none;
+	flex-wrap: wrap;
+	position: relative;
+	top: -132px;
+	left: 275px;
+	border: 2px solid white;
+	
+}
+
+.colorBox {
+	width: 60px;
+	height: 60px;
+	color: transparent;
+}
+
+#color1 {
+	background-color: green;
+}
+
+#color2 {
+	background-color: red;
+}
+#color3 {
+	background-color: yellow;
+}
+
+#color4 {
+	background-color: purple;
+}
+
+#color5 {
+	background-color: blue;
+}
+
+#color6 {
+	background-color: gray;
+}
+
+#color7 {
+	background-color: pink; 
+}
+
+#color8 {
+	background-color: coral;
+}
+
+#color9 {
+	background-color: darkolivegreen;
+}
+#box4 {
+	display: none;
+	width: 500px;
+	height: 80%;
+	border: 3px solid white;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px auto 0px auto;
+	background-color: rgba(0, 191, 255, 0.5);
+}
+.chooseWhatToAdd{
+	font-size: 24px;
+	color: burlywood;
+}
+#chooseList{
+	margin-left: 20px;
+}
+#tableOrList{
+	display: flex;
+}
+.styleOfTable{
+	margin: 25px;
+}
+
+#lineThickness{
+	
+}
+#lineType{
+	
+}
+#lineColor{
+	
+}
+.typeTextStyle {
+	width: 40px;
+	border-radius: 10px;
+}
+.select2{
+	width: 60px;
+	height: 21px;
+}
+#createTable, #createList {
+	border-radius: 10px;
+	display: block;
+	margin: 10px 0px;
+}
+p{
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	margin: 10px 0px;
+}
+#setYourTable {
+	display: none;
+}
+#setYourList {
+	display: none;
+}
+#countOfColumns, #countsOfRows, #widthOfData, #heightOfData{
+	display: inline-block;
+	margin: 10px;
+}
+#lineThickness, #selectLine1, #selectLine2 {
+	display: inline-block;
+	margin: 0 10px;
+}
